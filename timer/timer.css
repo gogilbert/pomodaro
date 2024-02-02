@@ -1,0 +1,15 @@
+.container {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+}
+.times {
+	border: 3px black solid;
+	display: flex;
+	flex-direction: row;
+	padding: 4px;
+}
+.number {
+	padding: 4px;
+	border: 1px solid black;
+}

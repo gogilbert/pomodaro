@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Timer</title>
+		<link rel="stylesheet" href="timer.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="times" id="hours">
+				<div>
+					<button class="inc" onclick="increment(0)">^</button>
+					<div class="number" id="0">0</div>
+					<button class="inc" onclick="decrement(0)">^</button>
+				</div>
+				<div>
+					<button class="inc" onclick="increment(1)">^</button>
+					<div class="number" id="1">0</div>
+					<button class="inc" onclick="decrement(1)">^</button>
+				</div>
+			</div>
+			<div class="times" id="minutes">
+				<div>
+					<button class="inc" onclick="increment(2)">^</button>
+					<div class="number" id="2">0</div>
+					<button class="inc" onclick="decrement(2)">^</button>
+				</div>
+				<div>
+					<button class="inc" onclick="increment(3)">^</button>
+					<div class="number" id="3">0</div>
+					<button class="inc" onclick="decrement(3)">^</button>
+				</div>
+			</div>
+			<button onclick="start()">Start</button>
+		</div>
+		<script src="timerscript.js"></script>
+	</body>
+	<footer>
+		<a href="/index.html">Return to main menu</a>
+	</footer>
+</html>

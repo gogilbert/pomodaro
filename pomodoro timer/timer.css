@@ -1,0 +1,43 @@
+html * {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+	background-color: black;
+}
+h1 {
+	color: white;
+	justify-content: center;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
+button {
+	align-self: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.container {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+}
+#full {
+	flex-direction: column;
+}
+#hours {
+	border: 3px white solid;
+	padding: 4px;
+}
+#minutes {
+	border: 3px white solid;
+	padding: 4px;
+}
+.number {
+	padding: 4px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+	border: 1px solid white;
+}
