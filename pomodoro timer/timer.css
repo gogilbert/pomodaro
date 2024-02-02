@@ -23,17 +23,17 @@ button {
 	display: flex;
 	flex-direction: row;
 	gap: 5px;
+	color: white;
+	font-size: 30px;
 }
 #full {
 	flex-direction: column;
 }
-#hours {
-	border: 3px white solid;
-	padding: 4px;
-}
+#hours,
 #minutes {
 	border: 3px white solid;
 	padding: 4px;
+	font-size: 17px;
 }
 .number {
 	padding: 4px;
