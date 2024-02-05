@@ -2,7 +2,7 @@ html * {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-	background-color: black;
+	background-color: #121212;
 }
 h1 {
 	color: white;
@@ -24,20 +24,22 @@ button {
 	flex-direction: row;
 	gap: 5px;
 	color: white;
-	font-size: 30px;
+	font-size: 80px;
 }
 #full {
 	flex-direction: column;
 }
 #hours,
 #minutes {
-	border: 3px white solid;
 	padding: 4px;
-	font-size: 17px;
+}
+.time-label {
+	align-self: center;
+	font-size: 60px;
 }
 .number {
-	padding: 4px;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	color: white;
-	border: 1px solid white;
+}
+.blob {
 }
