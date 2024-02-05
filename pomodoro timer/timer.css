@@ -13,10 +13,19 @@ h1 {
 footer {
 	text-align: center;
 }
-button {
+.hover-button {
 	align-self: center;
-	padding: 10px;
+	padding: 10px 40px;
 	border-radius: 10px;
+	background-color: #121212;
+	border: 2px solid #03DAC5;
+	color: white;
+	font-size: 20px;
+	transition-duration: 0.3s;
+}
+.hover-button:hover{
+	background-color: #03DAC5;
+	color: #121212;
 }
 .container {
 	justify-content: center;
@@ -40,6 +49,4 @@ button {
 .number {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	color: white;
-}
-.blob {
 }

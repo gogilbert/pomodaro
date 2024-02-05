@@ -11,7 +11,13 @@ const fivemin = 300;
 const timeInterval = 1000;
 
 function start() {
-	timer = setInterval(timeCall, timeInterval);
+	if (startbutton.innerHTML == "Start" || startbutton.innerHTML == "Resume") {
+		timer = setInterval(timeCall, timeInterval);
+		startbutton.innerHTML = "Pause";
+	} else {
+		clearInterval(timer);
+		startbutton.innerHTML = "Resume";
+	}
 }
 function timeCall() {
 	counter--;
