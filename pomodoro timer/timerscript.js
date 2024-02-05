@@ -8,8 +8,10 @@ const header = document.getElementsByTagName("h1")[0];
 const twentyfive = 1500;
 const fivemin = 300;
 
+const timeInterval = 1000;
+
 function start() {
-	timer = setInterval(timeCall, 1000);
+	timer = setInterval(timeCall, timeInterval);
 }
 function timeCall() {
 	counter--;
