@@ -1,4 +1,4 @@
-# Pomodoro Timer
+# [Pomodoro Timer](https://gogilbert.github.io/pomodaro/)
 Pomodoro Timer is a multi-functional timer tool, providing you with a regular timer, a pomodoro timer, and a stopwatch tool.
 
 This project was my introduction to using HTML, manipulating HTML using Javascript, and styling the HTML using CSS.
